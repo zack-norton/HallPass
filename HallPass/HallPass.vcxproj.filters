@@ -15,7 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="HallPass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PasswordBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="program.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="HallPass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PasswordBuilder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

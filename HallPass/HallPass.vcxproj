@@ -140,6 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="HallPass.cpp" />
+    <ClCompile Include="PasswordBuilder.cpp" />
+    <ClCompile Include="program.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HallPass.h" />
+    <ClInclude Include="PasswordBuilder.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
